@@ -43,11 +43,12 @@ export class HeroeComponent implements OnInit {
     }
 
     Swal.fire({
+      icon: 'info',
       title: 'Espere',
-      text: 'Guardando Imformacion',
-      type: 'info',
+      text: 'Guardando Imformacion...',
       allowOutsideClick: false
-    });
+    })
+
     Swal.showLoading();
 
     let peticion: Observable<any>;
@@ -62,10 +63,10 @@ export class HeroeComponent implements OnInit {
     peticion.subscribe( resp => {
 
       Swal.fire({
+        icon: 'success',
         title: this.heroe.nombre,
-        text: 'Se actualizo heroe correctamente',
-        type: 'succes'
-      });
+        text: 'Se actualizo heroe correctamente!'
+      })
 
     });
 
