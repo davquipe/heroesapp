@@ -30,5 +30,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## images
 
-first page
-https://user-images.githubusercontent.com/22479360/81477317-cc9e9900-91dc-11ea-92db-d209b106e0b4.png
+First page
+
+![Screen Shot 2020-05-09 at 10 06 46](https://user-images.githubusercontent.com/22479360/81477317-cc9e9900-91dc-11ea-92db-d209b106e0b4.png)
+
+Second page
+
+![Screen Shot 2020-05-09 at 10 12 04](https://user-images.githubusercontent.com/22479360/81477477-91509a00-91dd-11ea-8805-d281bf38281e.png)
+
